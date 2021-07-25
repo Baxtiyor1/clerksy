@@ -6,11 +6,20 @@
          url('../font/recoleta-regulardemo.woff2') format('woff2'),
          url('../font/recoleta-regulardemo.woff') format('woff');
   }
-  /* @font-face {
-    font-family: 'recoleta';
-    font-style: normal;
-    font-weight: 600;
-    src: local(''),
-         url('../fonts/open-sans-v20-latin-700.woff2') format('woff2'),
-         url('../fonts/open-sans-v20-latin-700.woff') format('woff');
-        } */
+  @font-face {
+     font-family: 'recoleta';
+     font-style: normal;
+     font-weight: 600;
+     src: local(''),
+          url('../font/recoleta-regulardemo.woff2') format('woff2'),
+          url('../font/recoleta-regulardemo.woff') format('woff');
+   }
+  /* noto-sans-regular - latin */
+@font-face {
+     font-family: 'Noto Sans';
+     font-style: normal;
+     font-weight: 400;
+     src: local(''),
+          url('../fonts/noto-sans-v14-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+          url('../fonts/noto-sans-v14-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+   }
