@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'recoleta';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../font/recoleta-regulardemo.woff2') format('woff2'),
+         url('../font/recoleta-regulardemo.woff') format('woff');
+  }
+  /* @font-face {
+    font-family: 'recoleta';
+    font-style: normal;
+    font-weight: 600;
+    src: local(''),
+         url('../fonts/open-sans-v20-latin-700.woff2') format('woff2'),
+         url('../fonts/open-sans-v20-latin-700.woff') format('woff');
+        } */
