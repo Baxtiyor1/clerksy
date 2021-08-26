@@ -21,11 +21,13 @@ a {
 }
 
 /* ------------- header star ------------- */
+.header{
+    background-color: #163A24;
+}
 .header__nav{
     padding: 20px 130px;
     display: flex;
     justify-content: space-between;
-    background-color: #163A24;
 }
 .header__menu{
     display: flex;
